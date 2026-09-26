@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: projecthub-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - projecthub_mongo:/data/db
+
+volumes:
+  projecthub_mongo:

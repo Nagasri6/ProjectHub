@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*.local
+backend/uploads/*
+!backend/uploads/.gitkeep
+coverage
+playwright-report
+test-results
+.DS_Store
+Thumbs.db
+*.log
+.vscode
+.idea
